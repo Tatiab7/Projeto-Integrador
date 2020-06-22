@@ -74,10 +74,16 @@ color: white;
 
 .banner h1{
     background-color: whitesmoke;
+    /*Preenchimento*/
+    padding: 15px;
+    font-weight: bolder;
 }
 
 .banner h2{
     background-color: whitesmoke;
+    /*Preenchimento*/
+    padding: 15px;
+    font-weight: bolder;
 }
 
 #menu {

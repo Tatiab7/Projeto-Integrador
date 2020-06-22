@@ -74,10 +74,16 @@ color: white;
 
 .banner h1{
     background-color: whitesmoke;
+    /*Preenchimento*/
+    padding: 15px;
+    font-weight: bolder;
 }
 
 .banner h2{
     background-color: whitesmoke;
+    /*Preenchimento*/
+    padding: 15px;
+    font-weight: bolder;
 }
 
 #menu {
@@ -124,7 +130,7 @@ color: white;
 
 
 main{
-    height: 2000px;
+    height: 1250px;
 }
 
 .principal h2{
@@ -208,28 +214,47 @@ main{
     margin-top: 20px;
 } 
 
-.Tabela{
-    /*Habilitar o modo grid*/
+.tabela{
+    background-color: rgb(255, 255, 255);
+
+    /*Habilita o modo de linhas e colunas*/
     display: grid;
 
     /*Quantas colunas*/
-    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-columns: 3fr 10fr 15fr;
 
     grid-template-rows: auto;
+    
+    /*Alinha na horizontal*/
+    justify-content: center;
 
-    gap: 20px;
+    padding: 5px;
 
-    padding: 20px 100px 20px 100px;
+    /*Magem*/
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
 
-    border: 2px solid #111111;
+.parte{
+    background-color: rgb(255, 255, 255);
+   
+    /*Fonte*/
+    font-family: Lucida Sans Unicode;
 
-     /*Bordas arredondadas*/
-     border-radius: 5%;
+    text-align: justify;
+      
+    /*Habilita o modo de linhas e colunas*/
+    display: grid;
+    
+    /*Alinha na horizontal*/
+    justify-content: center;
 
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    border: 1px solid #111111;
+    
+    padding: 10px 10px 10px 10px;
+    
 }
 
 .rodape {
