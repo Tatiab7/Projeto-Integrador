@@ -1,0 +1,178 @@
+/*Alterar para todos os elementos*/
+html * {
+    margin: 0px;
+    max-width: 100%;
+}
+body{
+    background-color: #c7f5f7;
+}
+
+#cabeçalho{
+     /*Cor de fundo*/
+     background-color: #67b1f7;
+    
+     /*Borda de cima*/
+     border-top: 10px solid #111111;
+     
+     /*Preenchimento*/
+     padding: 10px;
+
+     /*Habilitar o modo grid*/
+     display: grid;
+
+     /*Quantas colunas*/
+     grid-template-columns: 14fr 1fr 1fr;
+}
+
+#cabeçalho a {
+
+    color: #111111;
+
+    /*Letra Maiúscula*/
+    text-transform: uppercase;
+
+    /*Estilo de texto*/
+    text-decoration: none;
+
+    /*Fonte*/
+    font-family:Lucida;
+}
+
+#facebook{
+height: 30px;
+width: 30px;
+}
+
+#instagram{
+    height: 30px;
+    width: 30px;
+    }
+
+#cabeçalho a:hover{
+color: white;
+}
+
+#banner{
+    width: 100%;
+    border-top: 10px solid #111111;
+}
+
+#menu {
+    
+    /*Cor de fundo*/
+    background-color: #67b1f7;
+    
+    /*Margem inferior*/
+    margin-bottom: 20px;
+    
+    /*Borda de cima*/
+    border-top: 10px solid #111111;
+    
+    /*Borda de baixo*/
+    border-bottom: 10px solid #111111;
+
+    /*Preenchimento*/
+    padding: 10px;
+
+    /*Habilitar o modo grid*/
+    display: grid;
+
+    /*Quantas colunas*/
+    grid-template-columns: repeat(5, 1fr);
+
+    /*Alinhamento central do texto*/
+    text-align: center;
+}
+
+#menu a {
+
+    color: #111111;
+
+    /*Letra Maiúscula*/
+    text-transform: uppercase;
+
+    /*Estilo de texto*/
+    text-decoration: none;
+
+    /*Fonte*/
+    font-family:Lucida;
+}
+
+#menu a:hover{
+color: white;
+}
+
+
+main{
+    height: 700px;
+
+    /*Habilitar o modo grid*/
+    display: grid;
+
+    /*Quantas colunas*/
+    grid-template-columns: 1fr 6fr 1fr;
+
+    /*Espaço entre colunas*/
+    gap: 10px;
+}
+
+.setaesquerda {
+    padding: 300px 0px 200px 0px;
+
+    /*Magem*/
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.principal h1{
+    /*Habilita o modo de linhas e colunas*/
+    display: grid;
+    
+    /*Alinha na horizontal*/
+    justify-content: center;
+
+    /*Alinha na vertical*/
+    align-content: center;
+}
+
+.itemprincipal {
+
+    background-color: white;
+    /*Fonte*/
+    font-family: Lucida Sans Unicode;
+
+    text-align: justify;
+    
+    padding: 15px 100px 15px 100px;
+
+    /*Bordas arredondadas*/
+    border-radius: 5%;
+
+    border: 5px solid #111111;
+
+    /*Magem*/
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.rodape {
+    background-color:#67b1f7;
+    height: 50px;
+    border-top: 10px solid #111111;
+
+    /*Habilita o modo de linhas e colunas*/
+    display: grid;
+    
+    /*Alinha na horizontal*/
+    justify-content: center;
+
+    /*Alinha na vertical*/
+    align-content: center;
+}
+
+.rodape p{
+    text-align: center; 
+}
