@@ -21,7 +21,7 @@ body{
      display: grid;
 
      /*Quantas colunas*/
-     grid-template-columns: 14fr 1fr 1fr;
+     grid-template-columns: 12fr 1fr 1fr 1fr;
 }
 
 #cabeçalho a {
@@ -46,7 +46,12 @@ width: 30px;
 #instagram{
     height: 30px;
     width: 30px;
-    }
+}
+
+#Youtube{
+    height: 30px;
+    width: 30px;  
+}
 
 #cabeçalho a:hover{
 color: white;
